@@ -1,0 +1,72 @@
+/* CSS */
+
+h1 {
+    text-align: center;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.4px;
+    color: white;
+}
+  
+.topnav {
+  overflow: hidden;
+  background-color: #336571;
+  box-shadow: #203F47 0 -12px 6px inset;
+}
+  
+.button {
+  appearance: none;
+  background-color: #83D1E4;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #336571 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1.0px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  padding: 1rem 6rem;
+  width: 90%;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+  
+  .button:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+  
+  #footer {
+  overflow: hidden;
+  background: #336571;
+  bottom:0;
+  height:60px;   /* Height of the footer */
+  color: white;
+  clear: both;
+  margin-top: 60px;
+  }
